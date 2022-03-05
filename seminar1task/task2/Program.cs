@@ -10,20 +10,8 @@ Console.WriteLine("введите третье число ");
 string strNoumberC = Console.ReadLine();
 int NoumberC = int.Parse(strNoumberC);
 int Max=NoumberA;
-
 Console.Write("max=");
-
-if(NoumberA > NoumberB) 
-{
-    Max = NoumberA;
-}
-if(NoumberB > Max)
-{
-    Max = NoumberB;
-}
-if(NoumberC > Max)
-{
-
-    Max = NoumberC;
-}
+if(NoumberA > NoumberB) Max = NoumberA;
+if(NoumberB > Max)Max = NoumberB;
+if(NoumberC > Max)Max = NoumberC;
 Console.Write(Max);
